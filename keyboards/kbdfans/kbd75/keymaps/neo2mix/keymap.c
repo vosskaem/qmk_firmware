@@ -1,11 +1,12 @@
 #include QMK_KEYBOARD_H
 
-#define _ISO     0  // the basic layer
-#define _ISM     1  // permanent Layer for mixed ISO/NEO2 functionality
-#define _FN      2  // FN function layer
-#define _N4      3  // NEO2 layer 4
-#define _EMPTY   4  // an empty layer
-
+enum layers {
+    _ISO,
+    _ISM,
+    _FN,
+    _N4,
+    _EMPTY
+};
 
 // Custom macros
 #define SPC_N4      LT(_N4,KC_SPC)     // Tap for KC_SPC,  hold for Neo Layer 4
