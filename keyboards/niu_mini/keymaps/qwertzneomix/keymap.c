@@ -224,9 +224,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_NEO4] = LAYOUT_planck_mit(
-  KC_ESC,  KC_PGUP, KC_BSPC, KC_UP,   KC_DEL,  KC_PGDN, _______, KC_7,    KC_8,    KC_9,    KC_PPLS, KC_PMNS,
-  KC_DEL,  KC_HOME, KC_LEFT, KC_DOWN, KC_RIGHT,KC_END,  _______, KC_4,    KC_5,    KC_6,    KC_COMM, KC_DOT,
-  _______, KC_CLEAR,KC_TAB,  KC_INS,  KC_ENT,  _______, _______, KC_1,    KC_2,    KC_3,    KC_PGUP, KC_PGDN,
+  _______, KC_PGUP, KC_BSPC, KC_UP,   KC_DEL,  KC_PGDN, _______, KC_7,    KC_8,    KC_9,    KC_PPLS, KC_PMNS,
+  _______, KC_HOME, KC_LEFT, KC_DOWN, KC_RIGHT,KC_END,  _______, KC_4,    KC_5,    KC_6,    KC_COMM, KC_DOT,
+  _______, KC_CLEAR,KC_TAB,  KC_INS,  KC_ENT,  _______, _______, KC_1,    KC_2,    KC_3,    _______, _______,
   _______, _______, _______, _______, _______,     _______,      KC_0,    KC_PSLS, KC_PAST, _______, _______
 ),
 
